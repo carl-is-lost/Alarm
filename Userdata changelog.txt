@@ -1,0 +1,24 @@
+2018-5-10
+original messagebox used from: 
+https://0x62626262.wordpress.com/2015/10/10/win32-assembly-part-1/
+Slight modification to messagebox, changing text and making the main text display in multiple lines.
+
+2018-5-15
+Added a string comparison to determine if two strings are equal.
+Added second messagebox.
+Modified messagebox to show multiple buttons. 
+Added if/elseif to perform different actions based on button pressed.
+When clicking yes the program will return to the start.
+When clicking no the program will end.
+
+2018-5-17
+Re-wrote program, building upon the first program in Lab 8.1.
+Now accepts user text input.
+Intro messagebox shown at start to give directions.
+Correct messagebox shown if the values entered are correct.
+Incorrect messagebox shown if the values are incorrect.
+Clicking yes will also now clear the console window.
+Clicking cancel on the incorrect messagebox will keep the original username and password and let the user try to re-enter the correct information.
+
+2018-5-22
+Added comments
